@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 function Contact() {
   return (
-    <motion.div className=" px-32  h-dvh bg-white">
+    <motion.div className=" px-32 mt-32  h-dvh bg-white">
       <h1 className="text-[184px] leading-[104.5%] tracking-tight">
         Get In Touch <br /> With Us.
       </h1>

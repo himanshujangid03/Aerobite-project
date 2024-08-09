@@ -1,14 +1,15 @@
 import mapZonesImage from "../assets/map.png";
 import { motion } from "framer-motion";
+import DeliveryStats from "./DeliveryStats";
 
 function DeliveryZones() {
   return (
     <div className="px-32 mt-32 h-max font-medium">
-      <div>
-        <p className=" text-[184px] leading-[104.5%] tracking-tight">
+      <div className="">
+        <p className=" text-[128px] leading-[104.5%] tracking-tight">
           Aerobite
         </p>
-        <p className="  text-[184px] leading-[104.5%] pl-32 tracking-tight">
+        <p className="  text-[128px] leading-[104.5%] pl-32 tracking-tight">
           <span className=" italic mr-12 text-blueLight">Delivery</span>
           Zones
         </p>
@@ -20,7 +21,7 @@ function DeliveryZones() {
         broaden our reach while complying with the latest regulations. Stay
         tuned—we&apos;re eager to deliver to you soon!
       </p>
-      <DeliveryZones />
+      <DeliveryStats />
       <motion.img src={mapZonesImage} alt="maps" />
     </div>
   );

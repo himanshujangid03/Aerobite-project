@@ -3,7 +3,7 @@ import menuIcon from "../assets/menu-icon.svg";
 
 function Navbar() {
   return (
-    <div className="w-full z-50 flex justify-between px-12 py-12 sticky top-0 bg-white bg-opacity-50 backdrop-blur-md">
+    <div className="w-full z-50 flex justify-between px-12 py-6 sticky top-0 bg-white bg-opacity-50 backdrop-blur-md">
       <a href="/">
         <img
           src={logoTextDark}
