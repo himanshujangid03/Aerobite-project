@@ -13,11 +13,11 @@ const variants = {
 export default function HeroSection() {
   return (
     <>
-      <div className=" text-4xl md:text-6xl my-32 lg:text-[126px] font-bold leading-normal gap-6 flex flex-col">
+      <div className=" text-4xl md:text-6xl my-32 lg:text-[126px] font-bold gap-6 flex flex-col">
         <div className=" flex flex-col lg:flex-row gap-6 lg:gap-10 justify-center items-center">
           <div className=" overflow-hidden">
             <m.p
-              className=" italic text-center"
+              className=" italic text-center py-4 px-4"
               variants={variants}
               initial="hidden"
               animate="visible"
