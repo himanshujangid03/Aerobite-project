@@ -1,4 +1,4 @@
-import droneImage from "../assets/hero-drone-transparent.png";
+import droneImage from "../assets/hero-drone-transparent-image.png";
 import { motion as m } from "framer-motion";
 
 const variants = {
