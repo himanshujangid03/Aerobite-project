@@ -7,7 +7,7 @@ function FoodDelivery() {
         <h2 className=" text-[#00A9FF] font-medium text-5xl lg:text-6xl leading-[120.5%]">
           Express Food Delivery
         </h2>
-        <p className="text-white font-light text-4xl max-w-4/5 ">
+        <p className="text-white font-light text-2xl lg:text-4xl max-w-4/5 ">
           Our primary service is rapid food delivery, utilizing drones to bring
           your favorite meals to your doorstep in under 5 minutes. <br />
           <br />

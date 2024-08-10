@@ -8,7 +8,7 @@ function About() {
   return (
     <div className=" px-12 lg:px-32 py-32 flex flex-col lg:flex-row gap-16 lg:gap-[146px] bg-sky-50">
       <img src={largeLogoDark} className="w-[342px] self-start h-auto object-contain" alt="about aerobite" />
-      <div className="flex flex-col gap-16">
+      <div className="flex flex-col gap-8 lg:gap-16">
         <p className=" text-4xl font-medium">About Aerobite</p>
         <p className=" text-2xl leading-[121%] font-light">
           At Aerobite, we are redefining the food delivery landscape through the
