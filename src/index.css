@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-*{
-  font-family: Light;
-}
-
 .link-item::before {
   content: "";
   position: absolute;
