@@ -1,4 +1,4 @@
-import droneImage from "../assets/drone food image.png";
+import droneImage from "../assets/hero-drone-transparent.png";
 import { motion as m } from "framer-motion";
 
 const variants = {
@@ -13,8 +13,8 @@ const variants = {
 export default function HeroSection() {
   return (
     <>
-      <div className=" text-2xl md:text-6xl lg:text-[126px] font-bold leading-normal gap-6 flex flex-col">
-        <div className=" flex gap-6 lg:gap-10 justify-center items-center">
+      <div className=" text-4xl md:text-6xl my-32 lg:text-[126px] font-bold leading-normal gap-6 flex flex-col">
+        <div className=" flex flex-col lg:flex-row gap-6 lg:gap-10 justify-center items-center">
           <div className=" overflow-hidden">
             <m.p
               className=" italic text-center"
@@ -29,13 +29,13 @@ export default function HeroSection() {
               Sky High Dining
             </m.p>
           </div>
-          <div className=" w-[250px] h-[120px] flex justify-center items-center">
+          <div className="hidden w-[250px] h-[120px] lg:flex justify-center items-center">
             <m.img
               initial={{ height: 0, width: 0 }}
-              animate={{ width: 250, height: 120 }}
+              animate={{ width: 250 , height: 120 }}
               transition={{ duration: 1.5, ease: [0.6, 0.01, -0.05, 0.95], delay: 0.4 }}
               src={droneImage}
-              className=" "
+              className=" w-64"
               alt="drone image"
             />
           </div>

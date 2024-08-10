@@ -26,13 +26,17 @@
   border-radius: 100%;
   text-align: center;
   bottom: -15px;
+  left: 50%;
   opacity: 0;
-  background-color: #00a9ff;
+  background-color: #081f5c;
   cursor: pointer;
   transition: all 0.5s;
   animation: expand-width alternate-reverse;
 }
 
 .navlink-item:hover::before {
-  opacity: 1
+  opacity: 1;
 }
+
+/* --------------------------         CUSTOM FONT        -----------------------   */
+

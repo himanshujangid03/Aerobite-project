@@ -21,7 +21,7 @@ requestAnimationFrame(raf);
 function App() {
   return (
     <>
-      <div className="flex flex-col gap-32 font-twkEverett transition-all">
+      <div className="flex flex-col font-twkEverett transition-all">
         <Navbar />
         <HeroSection />
         <VideoSection />

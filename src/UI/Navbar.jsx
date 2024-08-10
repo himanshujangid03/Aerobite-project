@@ -3,13 +3,13 @@ import menuIcon from "../assets/menu-icon.svg";
 
 function Navbar() {
   return (
-    <div className="w-full z-50 flex justify-between px-12 py-6 sticky top-0 bg-white bg-opacity-50 backdrop-blur-md">
+    <div className="w-full z-50 flex justify-between px-7 lg:px-14 py-8 sticky top-0 bg-white bg-opacity-50 backdrop-blur-md">
       <a href="/">
         <img
           src={logoTextDark}
           width={207}
           height={40}
-          className=" cursor-pointer"
+          className=" cursor-pointer w-24 h-auto lg:w-[207px]"
           alt="logo"
         />
       </a>
@@ -22,8 +22,8 @@ function Navbar() {
       </div>
       <img
         src={menuIcon}
-        width={70}
-        height={14}
+        width={50}
+        height={10}
         alt=" menu-icon"
         className="cursor-pointer block lg:hidden"
       />

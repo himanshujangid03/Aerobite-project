@@ -1,6 +1,7 @@
-import playIcon from '../assets/play-icon-white.svg'
+import playIcon from "../assets/play-icon-white.svg";
 import { Button } from "@/components/ui/button";
 import ytVideo from "../assets/ytvideo.png";
+import { motion as m } from "framer-motion";
 
 function YoutubeSection() {
   return (
@@ -14,10 +15,26 @@ function YoutubeSection() {
           firsthand how Aerobite is transforming the way you receive your
           favorite meals.
         </p>
-        <Button className="bg-blueLight hover:bg-sky-400 self-start text-[36px] py-[56px] px-[56px] font-light rounded-full">
-        <img src={playIcon} alt="play video icon" className=' size-10 mr-4' />
-          Watch On Youtube
-        </Button>
+        <m.div
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+          transition={{
+            duration: 0.2,
+            type: "spring",
+            damping: 20,
+            stiffness: 200,
+          }}
+          className=" w-min"
+        >
+          <Button className="bg-blueLight hover:bg-sky-400 self-start text-[36px] py-[56px] px-[56px] font-light rounded-full">
+            <img
+              src={playIcon}
+              alt="play video icon"
+              className=" size-10 mr-4"
+            />
+            Watch On Youtube
+          </Button>
+        </m.div>
       </div>
     </div>
   );
