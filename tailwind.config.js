@@ -11,9 +11,9 @@ export default {
   ],
   prefix: "",
   theme: {
-    fontFamily: {
+    /* fontFamily: {
       twkEverett: ["TWK Everett", "sans-serif"],
-    },
+    }, */
     container: {
       center: true,
       padding: "2rem",
