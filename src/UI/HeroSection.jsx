@@ -14,11 +14,11 @@ const variants = {
 export default function HeroSection() {
   return (
     <>
-      <div className=" text-5xl md:text-6xl mb-16 mt-6 lg:text-[84px] font-semibold gap-6 flex flex-col">
+      <div className=" text-4xl px-8 md:text-6xl mb-16 mt-6 lg:text-[84px] font-regular font-semibold gap-6 flex flex-col">
         <div className=" flex flex-col lg:flex-row gap-6 lg:gap-10 justify-center items-start lg:items-center">
           <div className=" overflow-hidden">
             <m.p
-              className=" italic text-center py-4 px-4"
+              className=" text-center font-regular italic lg:p-2"
               variants={variants}
               initial="hidden"
               animate="visible"
@@ -28,7 +28,7 @@ export default function HeroSection() {
               }}
             >
               Sky High{" "}
-              <span className=" text-transparent bg-clip-text bg-gradient-to-r from-blueLight to-blueDark">
+              <span className=" text-transparent bg-clip-text pr-2 bg-gradient-to-r from-blueLight to-blueDark">
                 Dining
               </span>
             </m.p>
@@ -53,7 +53,7 @@ export default function HeroSection() {
               ease: [0.6, 0.01, -0.05, 0.95],
               delay: 0.2,
             }}
-            className="text-center"
+            className="text-start lg:text-center"
           >
             Delivered to Your Doorstep
           </m.p>

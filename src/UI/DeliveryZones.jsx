@@ -4,17 +4,17 @@ import DeliveryStats from "./DeliveryStats";
 
 function DeliveryZones() {
   return (
-    <div className="px-16 mt-32 h-max font-medium">
+    <div className="px-8 lg:px-16 mt-16 lg:mt-32 h-max font-medium">
       <div className="">
-        <p className=" text-[128px] leading-[104.5%] tracking-tight">
+        <p className=" text-5xl lg:text-[128px] leading-[104.5%] tracking-tight">
           Aerobite
         </p>
-        <p className="  text-[128px] leading-[104.5%] pl-32 tracking-tight">
-          <span className=" italic mr-12 text-blueLight">Delivery</span>
+        <p className="  text-5xl lg:text-[128px] leading-[104.5%] text-wrap lg:pl-32 tracking-tight">
+          <span className=" italic mr-4 lg:mr-12 text-blueLight">Delivery</span>
           Zones
         </p>
       </div>
-      <p className=" mt-10 text-3xl leading-[100%]">
+      <p className=" mt-10 text-2xl font-regular leading-[100%]">
         Our drone delivery service is rapidly expanding. Explore our
         continuously growing list of delivery zones to see if we&apos;re in your
         area.Is your neighborhood not listed? We&apos;re tirelessly working to

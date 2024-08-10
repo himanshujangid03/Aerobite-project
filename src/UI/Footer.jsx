@@ -1,4 +1,4 @@
-import githubIcon from "../assets/github-icon.svg";
+ import githubIcon from "../assets/github-icon.svg";
 import instaIcon from "../assets/instagram-icon.svg";
 import linkedinIcon from "../assets/linkedin-icon.svg";
 import { motion as m } from "framer-motion";
@@ -11,13 +11,13 @@ function Footer() {
         initial={{opacity: 0}}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className=" text-white text-9xl font-bold leading-none w-min m-auto text-center"
+          className=" text-white text-6xl lg:text-9xl font-bold leading-none w-min m-auto text-center"
         >
           AEROBITE
         </m.p>
-        <div className=" px-12 flex flex-col gap-24">
-          <div className=" flex justify-between mt-[96px]">
-            <div className=" font-medium text-2xl text-white flex flex-col gap-6 ">
+        <div className=" px-12 flex flex-col gap-12 lg:gap-24">
+          <div className=" flex flex-col gap-6 lg:gap-12 lg:flex-row justify-between mt-[96px]">
+            <div className=" font-medium text-2xl text-white flex flex-col gap-2 lg:gap-6 ">
               <p className=" link-item relative w-fit cursor-pointer">HOME</p>
               <p className=" link-item relative w-fit cursor-pointer">ABOUT</p>
               <p className=" link-item relative w-fit cursor-pointer">
@@ -28,10 +28,10 @@ function Footer() {
               </p>
             </div>
             <div className=" flex flex-col gap-6">
-              <p className="font-medium text-3xl text-white underline">
+              <p className="font-medium text-xl lg:text-3xl text-white underline">
                 himanshujangid516@gmail.com
               </p>
-              <div className=" flex justify-end gap-6">
+              <div className=" flex justify-start lg:justify-end gap-6">
                 <a href="https://github.com/himanshujangid03" target="_blank">
                   <m.img
                     whileHover={{ y: -3 }}

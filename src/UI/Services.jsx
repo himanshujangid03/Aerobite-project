@@ -5,7 +5,7 @@ import ServiceHeading from "./ServiceHeading";
 
 function Services() {
   return (
-    <div className="h-max px-32 pt-32 pb-28 bg-black  rounded-[64px] flex flex-col gap-[246px]">
+    <div className="h-max px-8 lg:px-12 py-14 bg-black  rounded-[1.5rem] flex flex-col gap-16">
       <ServiceHeading />
       <div>
         <FoodDelivery />

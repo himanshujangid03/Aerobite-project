@@ -7,11 +7,11 @@ function ServiceHeading() {
   const scrollRef = useRef(null);
   return (
     <>
-      <div className="">
+      <div className=" flex flex-col gap-4 lg:gap-0 font-medium">
         <div ref={scrollRef} className=" overflow-hidden">
-          <p className="m-0 text-[184px] text-white leading-none">Featured</p>
+          <p className="m-0 text-5xl lg:text-[184px] text-white leading-none">Featured</p>
         </div>
-        <div className="m-0 grid grid-cols-[auto,1fr] gap-16 leading-none items-end">
+        <div className="m-0 grid grid-cols-[auto,1fr] gap-4 lg:gap-16 leading-none items-end">
           {/* <video
             src={droneVideo}
             width={278}
@@ -21,9 +21,9 @@ function ServiceHeading() {
             loop
             className=" rounded-full"
           ></video> */}
-          <img src={droneImage} className=" w-64 h-auto mb-4" alt="drone image" />
+          <img src={droneImage} className=" w-20 lg:w-64 h-auto lg:mb-4" alt="drone image" />
           <div className=" overflow-hidden">
-            <p className=" m-0 text-[184px] text-white font-light italic">
+            <p className=" m-0 text-5xl lg:text-[184px] text-white font-regular italic">
               Services
             </p>
           </div>

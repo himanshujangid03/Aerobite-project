@@ -3,11 +3,11 @@ import telephone from "../assets/telephone.svg";
 
 function Contact() {
   return (
-    <motion.div className=" px-32 pb-20   h-max bg-white">
-      <h1 className="text-8xl font-medium leading-[104.5%] tracking-tight">
+    <motion.div className=" px-8 lg:px-32 pb-20   h-max bg-white">
+      <h1 className="text-5xl lg:=text-8xl font-medium leading-[104.5%] tracking-tight">
         Get In Touch <br /> With Us.
       </h1>
-      <p className=" text-3xl mt-8">
+      <p className=" text-2xl lg:text-3xl mt-8">
         We’d love to hear from you! Whether you have questions, feedback, or
         need support, our team at Aerobite is here to assist you. Reach out to
         us for any inquiries about our drone delivery service, partnership

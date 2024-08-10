@@ -22,9 +22,18 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        light: ["Light", "sans-serif"],
+        regular: ["Regular", "sans-serif"],
+        medium: ["Medium", "sans-serif"],
+        lightItalic: ["LightItalic", "sans-serif"],
+        bold: ["Bold", "sans-serif"],
+        mediumItalic: ["MediumItalic", "sans-serif"],
+
+      },
       colors: {
-        blueDark : "#081F5C",
-        blueLight : "#00A9FF"
+        blueDark: "#081F5C",
+        blueLight: "#00A9FF",
       },
       keyframes: {
         "accordion-down": {
