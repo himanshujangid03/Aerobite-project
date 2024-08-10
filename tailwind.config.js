@@ -12,7 +12,7 @@ export default {
   prefix: "",
   theme: {
     fontFamily: {
-      twkEverett: ["TWK Everett", "sans-serif"],
+      twkEverett: ["Matter", "sans-serif"],
     },
     container: {
       center: true,

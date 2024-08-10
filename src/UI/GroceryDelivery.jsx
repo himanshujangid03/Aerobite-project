@@ -5,10 +5,10 @@ function GroceryDelivery() {
     <>
       <div className="w-full grid grid-cols-2">
         <div className=" flex flex-col gap-[32px] h-fit">
-          <h2 className=" text-[#80B25B] font-medium text-[96px] leading-[120.5%]">
+          <h2 className=" text-[#80B25B] font-semibold text-6xl leading-[120.5%]">
             Grocery Delivery
           </h2>
-          <p className="text-white font-light text-[48px] leading-[104.5%]">
+          <p className="text-white font-light text-3xl ">
             Need groceries in a pinch? Aerobite drones can deliver a wide range
             of grocery items from local stores straight to your home. Enjoy the
             convenience of having your essentials delivered quickly and

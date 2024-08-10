@@ -10,14 +10,6 @@ import EmailSubscription from "./UI/EmailSubscription";
 import Footer from "./UI/Footer";
 import Contact from "./UI/Contact";
 import Brands from "./UI/Brands";
-import "./fonts/TWKEverett-Light.otf";
-import "./fonts/TWKEverett-LightItalic.otf";
-import "./fonts/TWKEverett-Medium.otf";
-import "./fonts/TWKEverett-MediumItalic.otf";
-import "./fonts/TWKEverett-Bold.otf";
-import "./fonts/TWKEverett-BoldItalic.otf";
-import "./fonts/TWKEverett-Extrabold.otf";
-import "./fonts/TWKEverett-ExtraboldItalic.otf";
 
 const lenis = new Lenis();
 function raf(time) {

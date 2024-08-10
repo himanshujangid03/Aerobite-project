@@ -3,11 +3,11 @@ import foodDelivery from "../assets/food-delivery.png";
 function FoodDelivery() {
   return (
     <div className="w-full grid grid-cols-2">
-      <div className=" flex flex-col gap-[32px] h-fit">
-        <h2 className=" text-[#00A9FF] font-medium text-[96px] leading-[120.5%]">
+      <div className=" flex flex-col gap-8 h-fit">
+        <h2 className=" text-[#00A9FF] font-semibold text-6xl leading-[120.5%]">
           Express Food Delivery
         </h2>
-        <p className="text-white font-light text-[48px] leading-[104.5%]">
+        <p className="text-white font-light text-3xl ">
           Our primary service is rapid food delivery, utilizing drones to bring
           your favorite meals to your doorstep in under 5 minutes. <br />
           <br />

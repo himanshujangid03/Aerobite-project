@@ -5,7 +5,7 @@
 .link-item::before {
   content: "";
   position: absolute;
-  height: 3px;
+  height: 1.5px;
   width: 0px;
   bottom: -5px;
   background-color: white;
@@ -28,62 +28,12 @@
   bottom: -15px;
   left: 50%;
   opacity: 0;
-  background-color: #081f5c;
+  background-color: #081F5C;
   cursor: pointer;
   transition: all 0.5s;
   animation: expand-width alternate-reverse;
 }
 
 .navlink-item:hover::before {
-  opacity: 1;
-}
-
-/* --------------------------         CUSTOM FONT        -----------------------   */
-
-@font-face {
-  font-family: "Light"; /*Can be any text*/
-  src: local("TWKEverett-Light"),
-    url("./font/TWKEverett-Light.otf") format("opentype");
-}
-
-@font-face {
-  font-family: "Regular"; /*Can be any text*/
-  src: local("TWKEverett-Regular"),
-    url("./font/TWKEverett-Regular.otf") format("opentype");
-}
-
-@font-face {
-  font-family: "Medium"; /*Can be any text*/
-  src: local("TWKEverett-Medium"),
-    url("./font/TWKEverett-Medium.otf") format("opentype");
-}
-
-@font-face {
-  font-family: "Bold"; /*Can be any text*/
-  src: local("TWKEverett-Bold"),
-    url("./font/TWKEverett-Bold.otf") format("opentype");
-}
-
-@font-face {
-  font-family: "Extrabold"; /*Can be any text*/
-  src: local("TWKEverett-Extrabold"),
-    url("./font/TWKEverett-Extrabold.otf") format("opentype");
-}
-
-@font-face {
-  font-family: "LightItalic"; /*Can be any text*/
-  src: local("TWKEverett-LightItalic"),
-    url("./font/TWKEverett-LightItalic.otf") format("opentype");
-}
-
-@font-face {
-  font-family: "MediumItalic"; /*Can be any text*/
-  src: local("AirbnbCerealMediumItalic"),
-    url("./font/TWKEverett-MediumItalic.otf") format("opentype");
-}
-
-@font-face {
-  font-family: "BoldItalic"; /*Can be any text*/
-  src: local("AirbnbCerealBoldItalic"),
-    url("./font/TWKEverett-BoldItalic.otf") format("opentype");
+  opacity: 1
 }

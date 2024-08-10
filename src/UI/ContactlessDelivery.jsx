@@ -5,10 +5,10 @@ function ContactlessDelivery() {
     <>
       <div className="w-full grid grid-cols-2">
         <div className=" flex flex-col gap-[32px] h-fit">
-          <h2 className=" text-[#AABBC6] font-medium text-[96px] leading-[120.5%]">
+          <h2 className=" text-[#AABBC6] font-semibold text-6xl leading-[120.5%]">
             Contactless Delivery
           </h2>
-          <p className="text-white font-light text-[48px] leading-[104.5%]">
+          <p className="text-white font-light text-3xl ">
             Prioritizing safety and hygiene, our drones provide contactless
             delivery, minimizing human interaction. This service is perfect for
             maintaining social distancing and ensuring a safe delivery

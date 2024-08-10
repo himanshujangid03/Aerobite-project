@@ -1,5 +1,6 @@
-import droneImage from "../assets/hero-drone-transparent-image.png";
+//import droneImage from "../assets/drone-image-hero.png";
 import { motion as m } from "framer-motion";
+import droneVideo from "../assets/drone-video.mp4";
 
 const variants = {
   hidden: {
@@ -13,8 +14,8 @@ const variants = {
 export default function HeroSection() {
   return (
     <>
-      <div className=" text-4xl md:text-6xl my-32 lg:text-[126px] font-bold gap-6 flex flex-col">
-        <div className=" flex flex-col lg:flex-row gap-6 lg:gap-10 justify-center items-center">
+      <div className=" text-5xl md:text-6xl mb-16 mt-6 lg:text-[84px] font-semibold gap-6 flex flex-col">
+        <div className=" flex flex-col lg:flex-row gap-6 lg:gap-10 justify-center items-start lg:items-center">
           <div className=" overflow-hidden">
             <m.p
               className=" italic text-center py-4 px-4"
@@ -26,18 +27,20 @@ export default function HeroSection() {
                 ease: [0.6, 0.01, -0.05, 0.95],
               }}
             >
-              Sky High Dining
+              Sky High{" "}
+              <span className=" text-transparent bg-clip-text bg-gradient-to-r from-blueLight to-blueDark">
+                Dining
+              </span>
             </m.p>
           </div>
-          <div className="hidden w-[250px] h-[120px] lg:flex justify-center items-center">
-            <m.img
-              initial={{ height: 0, width: 0 }}
-              animate={{ width: 250 , height: 120 }}
-              transition={{ duration: 1.5, ease: [0.6, 0.01, -0.05, 0.95], delay: 0.4 }}
-              src={droneImage}
-              className=" w-64"
-              alt="drone image"
-            />
+          <div className="hidden w-[200px] h-[100px] lg:flex justify-center items-start lg:items-center">
+            <video
+              src={droneVideo}
+              autoPlay
+              muted
+              loop
+              className=" rounded-full"
+            ></video>
           </div>
         </div>
         <div className=" overflow-hidden">
