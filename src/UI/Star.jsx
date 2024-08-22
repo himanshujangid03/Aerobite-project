@@ -17,7 +17,7 @@ export default function Star({ size, className, duration }) {
           id="Layer_1"
           height={size}
           viewBox="0 0 64 64"
-          fill="yellow"
+          fill="#F6E96B"
           width={size}
           xmlns="http://www.w3.org/2000/svg"
           data-name="Layer 1"
